@@ -1,0 +1,554 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+  top: 0;
+}
+
+.header img {
+  margin-right: 18%;
+}
+
+.header ul {
+  display: flex;
+  margin: 10px 70px;
+}
+
+.header ul li {
+  list-style: none;
+  margin: 20px;
+  font-size: 22px;
+  border-bottom: 1px solid dodgerblue;
+  border-bottom: hidden;
+}
+
+.header ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.header ul a:hover {
+  color: dodgerblue;
+  border-bottom: 1px solid dodgerblue;
+}
+
+.world-animation {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+  padding-top: 5%;
+}
+
+.animation {
+  float: left;
+}
+
+.animation h1 {
+  font-size: 80px;
+  width: 60%;
+}
+
+.animation p {
+  font-size: 20px;
+  width: 40%;
+  margin-top: 60px;
+}
+
+.gif {
+  float: right;
+}
+
+.header-link button {
+  width: 20%;
+  height: 6vh;
+  font-size: 16px;
+  color: #fff;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+
+.header-link button:hover {
+  background-color: rgba(230, 36, 36, 0.74);
+}
+
+.header-link a {
+  color: black;
+  font-size: 18px;
+  margin: 30px;
+}
+
+.header-link img {
+  float: right;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+.right {
+  display: flex;
+  margin: 40px;
+  justify-content: center;
+}
+
+.right h3 {
+  width: 50%;
+  margin: 30px;
+}
+
+.line {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px dotted black;
+  width: 80%;
+  margin-top: 10%;
+}
+
+.icons {
+  border-bottom: 0.5px dotted black;
+}
+
+.second {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+}
+.second img {
+  width: 50%;
+}
+
+.men img {
+  width: 50%;
+}
+
+.write {
+  margin: 5%;
+  height: 50vh;
+  margin-left: 150px;
+}
+.write h1 {
+  width: 80%;
+}
+
+.write p {
+  width: 50%;
+  margin-top: 40px;
+  line-height: 20px;
+}
+
+.pretor {
+  display: flex;
+  justify-content: center;
+}
+
+.pretor h1 {
+  width: 40%;
+  text-align: center;
+  font-size: 45px;
+}
+
+.pretor span {
+  color: dodgerblue;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  margin: 5%;
+}
+
+.cards .card-box {
+  width: 17%;
+  height: 50vh;
+  margin: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.detail {
+  text-align: center;
+}
+
+.detail h2 {
+  border: 1px solid dodgerblue;
+  width: 14%;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 28px;
+  color: dodgerblue;
+  float: right;
+  opacity: 0.7;
+}
+
+.detail img {
+  margin: 20%;
+}
+
+.detail span a {
+  color: black;
+  line-height: 90px;
+}
+
+.more-detail {
+  display: flex;
+  justify-content: center;
+}
+
+.more-detail button {
+  width: 22%;
+  padding: 20px;
+  background-color: dodgerblue;
+  color: #fff;
+  font-size: 22px;
+  border: none;
+  border-radius: 10px;
+}
+
+.more-detail button:hover {
+  background-color: rgba(230, 36, 36, 0.74);
+}
+
+.linear {
+  background-image: url(Image/lottie-section-bg2.webp);
+  width: 100%;
+  height: 140vh;
+  margin-top: 15%;
+}
+
+.designs {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.designs h1 {
+  width: 35%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.create {
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+}
+
+.smily {
+  width: 22%;
+  height: 60vh;
+  margin: 15px;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.smily img {
+  width: 100%;
+  height: 30vh;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.user {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  opacity: 0.5;
+}
+
+.user img {
+  width: 5%;
+  height: 2vh;
+  padding: 5px;
+}
+
+.user span {
+  padding: 5px;
+}
+
+.smily h2 {
+  text-align: center;
+}
+
+.smily p {
+  font-size: 20px;
+  text-align: center;
+  opacity: 0.8;
+  margin: 20px;
+}
+
+.like {
+  display: flex;
+  margin: 30px;
+}
+.like img {
+  width: 7%;
+  height: 3vh;
+}
+.like h4 {
+  font-size: 20px;
+}
+
+.motion {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-box {
+  width: 70%;
+  height: 55vh;
+  background-color: rgb(54, 48, 105);
+  margin-top: 8%;
+  border-radius: 20px;
+}
+
+.bottom-box img {
+  float: right;
+  background: transparent;
+  margin: 5%;
+}
+
+.subscribe {
+  margin: 9%;
+}
+
+.subscribe h1 {
+  font-size: 50px;
+  color: #fff;
+  height: 17vh;
+}
+
+.subscribe input {
+  padding: 10px;
+  width: 20%;
+  border-radius: 10px;
+  border: none;
+  color: brown;
+}
+
+.subscribe input:focus {
+  border: 3px solid brown;
+}
+.subscribe button {
+  padding: 13px;
+  width: 12%;
+  border-radius: 10px;
+  border: none;
+  background-color: dodgerblue;
+  font-size: 18px;
+  color: #fff;
+}
+
+.subscribe button:hover {
+  background-color: rgba(230, 36, 36, 0.74);
+}
+
+.subscribe p {
+  font-size: 20px;
+  color: #fff;
+  line-height: 15vh;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+}
+
+.bottom-contact {
+  width: 80%;
+  height: 60vh;
+  display: flex;
+  padding: 10%;
+}
+
+.us {
+  margin: 10%;
+}
+
+.us h1 {
+  font-size: 40px;
+  height: 10vh;
+}
+
+.us p {
+  margin-top: 50px;
+  height: 15vh;
+}
+
+.us h4 {
+  height: 5vh;
+}
+
+.us h2 {
+  font-size: 30px;
+}
+
+.us h3 {
+  font-size: 30px;
+  height: 5vh;
+}
+
+@media screen and (max-width: 430px) {
+  .header {
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  .world-animation {
+    width: 100%;
+    height: auto;
+    margin: 0;
+  }
+  .animation {
+    width: 100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    float: none;
+  }
+  .animation h1 {
+    width: auto;
+    font-size: 40px;
+  }
+  .gif {
+    width: 100%;
+    height: auto;
+    float: none;
+  }
+  .gif img {
+    width: 70%;
+  }
+  .animation p {
+    text-align: center;
+    width: auto;
+  }
+  .header-link button {
+    width: 30%;
+    font-size: 15px;
+  }
+  .icons {
+    width: 100%;
+    height: auto;
+    display: flex;
+    text-align: center;
+  }
+  .right {
+    display: block;
+    text-align: center;
+  }
+  .right h3 {
+    text-align: center;
+    width: 80%;
+    font-size: 15px;
+  }
+  .second {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .second img {
+    width: 80%;
+  }
+  .write {
+    text-align: center;
+    margin: 0;
+  }
+  .write p {
+    margin: 10%;
+    width: 60%;
+  }
+  .write span a {
+    margin-right: 20%;
+  }
+  .pretor {
+    width: 100%;
+    height: auto;
+  }
+  .pretor h1 {
+    font-size: 30px;
+    width: 80%;
+  }
+  .cards {
+    width: 100%;
+    height: auto;
+    margin: 0%;
+    display: block;
+  }
+  .card-box {
+    display: flex;
+    margin: 0;
+    height: 10vh;
+    padding-left: 26%;
+    width: 50%;
+  }
+
+  .detail h2 {
+    text-align: center;
+  }
+  .detail img {
+    width: auto;
+    height: auto;
+    margin: 4%;
+  }
+  .more-detail button {
+    width: 50%;
+  }
+  .linear {
+    background-size: cover;
+    object-fit: cover;
+    height: auto;
+  }
+  .designs h1 {
+    width: 70%;
+    font-size: 35px;
+  }
+  .create {
+    display: block;
+  }
+  .smily {
+    margin: 10%;
+    width: 80%;
+  }
+  .motion {
+    display: block;
+  }
+  .bottom-box {
+    width: 100%;
+    height: auto;
+  }
+  .bottom-box img {
+    float: none;
+    margin: 0;
+  }
+  .subscribe h1 {
+    font-size: 40px;
+  }
+  .subscribe input {
+    width: 60%;
+  }
+  .subscribe button {
+    width: 30%;
+    padding: 10px;
+  }
+  .contact {
+    display: block;
+  }
+  .bottom-contact {
+    display: block;
+    text-align: center;
+
+    height: auto;
+  }
+  .us h3 {
+    font-size: 20px;
+  }
+}
